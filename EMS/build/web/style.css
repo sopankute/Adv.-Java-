@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2022, 3:31:43 PM
+    Author     : sadhu
+*/
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+h1{
+   color:yellow;
+   align-content: center;
+}
+
+.banner {
+  background-color:brown;
+  color:yellowgreen;
+  padding: 40px 30px;
+  margin-top: 5px;
+}
+
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:cyan;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+nav {
+  background-color:darkslategrey;
+  padding: 25px;
+  margin-top: 2px;
+}
+
+li a {
+  background-color: violet;
+  border: none;
+  color:white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;   
+}
+
+li {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+section {
+  background-color:olive;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+article {
+  background-color: white;
+  margin-top: 5px;
+  padding: 10px 15px;
+}
+
+main {
+  width: 640px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+aside {
+  background-color:coral;
+  width: 270px;
+  float: right;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+footer {
+  clear: both;
+  background-color: #20416c;
+  color: white;
+  padding: 5px 20px;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;   
+}

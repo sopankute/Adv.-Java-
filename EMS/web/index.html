@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>EMS</title>
+        <link rel="stylesheet" href="style.css">           
+    </head>
+    <body>
+        <header class="banner">
+            <h1>Employee Management System</h1>
+        </header>
+        <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="./Register.jsp">Register</a></li>
+        <li><a href="index.html">Login</a></li>
+        <li><a href="about.html">Contact</a></li>
+         <li><a href="about.html">About us</a></li>
+      </ul>
+    </nav>
+        <main>
+      <section>
+        <h2>Local News</h2>
+        <article>
+          <header>
+            <h3>Fire fighters rescue man from building</h3>
+           
+          </header>
+          
+        </article>
+
+        <article>
+          <header>
+            <h3>New Library to be built</h3>
+           
+          </header>
+       
+        </article>
+      </section>
+
+      <section>
+        <h2>National News</h2>
+        <article>
+          <header>
+            <h3>Snow storm is making travel difficult</h3>
+          
+          </header>
+         
+        </article>
+
+        <article>
+          <header>
+            <h3>Thousands are without power</h3>
+         
+          </header>
+         
+        </article>
+      </section>
+    </main>
+
+    <aside>
+      <div id="loginForm"> 
+      <h2> Login Here!</h2>
+      <br>
+      <form name="f1" method="post" action="./LoginServ">
+          
+       <label> User Name</label>
+       <input type="text" id="name" name="name" placeholder="uname" required>
+       <br> <br>
+       <label > Password</label>
+       <input type="password" id="pwd" name="pwd" placeholder="password" required>
+       <br> <br> <br>
+       <input type="submit" id="submit" value="Login" >
+      </form>
+      </div>
+    </aside>
+
+    <footer>
+      <p>EMS@2022 All rights reserved @SSR</p>
+    </footer>
+    </body>
+</html>
